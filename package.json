@@ -1,0 +1,22 @@
+{
+  "name": "demo_app",
+  "version": "1.0.0",
+  "description": "node api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Rakesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-validator": "^2.20.4",
+    "mongodb": "^2.1.18",
+    "mongoose": "5.3.12",
+    "morgan": "^1.7.0",
+    "node-geocoder": "^3.21.1",
+    "nodemon": "^1.17.5",
+    "passport": "^0.4.0",
+    "require-dir": "^1.0.0"
+  }
+}
